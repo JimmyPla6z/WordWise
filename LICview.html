@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LICENSE.txt</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f9; color: #333; text-align: center; margin: 0; padding: 20px; }
+        .license-container { max-width: 600px; margin: auto; padding: 20px; background: white; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .license-title { font-size: 24px; margin-bottom: 20px; }
+        .license-text { font-size: 14px; text-align: left; max-height: 300px; overflow-y: auto; margin-bottom: 20px; white-space: pre-line; }
+        .license-buttons { display: flex; justify-content: space-around; }
+        button { padding: 10px 20px; font-size: 16px; border: none; cursor: pointer; border-radius: 5px; }
+        button.accept { background: #007bff; color: white; }
+        button.accept:hover { background: #0056b3; }
+        button.decline { background: #dc3545; color: white; }
+        button.decline:hover { background: #a71d2a; }
+    </style>
+    <script>
+        function acceptLicense() {
+            // Redirect to index.html when the user accepts
+            window.location.href = "index.html";
+        }
+
+        function declineLicense() {
+            alert("You must accept the license agreement to proceed.");
+        }
+    </script>
+</head>
+<body>
+    <!-- License Agreement Screen -->
+    <div id="licenseScreen" class="license-container">
+        <div class="license-text">
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2025, WordWise
+
+This project, WordWise, uses data from the FreeDictionaryAPI <a href="https://dictionaryapi.dev" target="_blank">(dictionaryapi.dev)</a> and is licensed under the GNU General Public License version 3 (GPL-3.0).
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <a href="https://gnu.org/licenses" target="_blank">https://gnu.org/licenses.</a>.
+
+For inquiries or contributions, contact: nejkingcheater100@gmail.com
+
+---
+
+The FreeDictionaryAPI and the terms of its license are available at <a href="https://github.com/meetDeveloper/freedictionaryAPI" target="_blank">https://github.com/meetDeveloper/freeDictionaryAPI</a>.
+        </div>
+    </div>
+</body>
+</html>
