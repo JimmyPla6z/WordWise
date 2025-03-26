@@ -22,6 +22,16 @@
         .license-link { margin-top: 20px; font-size: 16px; color: #007bff; text-decoration: none; }
         .license-link:hover { text-decoration: underline; }
     </style>
+    <script>
+        // Check if the license agreement has been accepted
+        window.onload = () => {
+            const licenseAccepted = localStorage.getItem('licenseAccepted');
+            if (!licenseAccepted) {
+                // Redirect to LICENSE.html if the user hasn't accepted the license agreement
+                window.location.href = 'LICENSE.html';
+            }
+        };
+    </script>
 </head>
 <body>
     <div class="container">
@@ -42,9 +52,9 @@
         </div>
     </div>
     <footer>
-    This dictionary uses data from the <a href="https://dictionaryapi.dev" target="_blank">FreeDictionaryAPI</a> and is licensed under the 
-    <a href="https://wordwise.playcode.io/LICENSE.txt" target="_blank">GPL-3.0 License</a>.
-   </footer>
+        This dictionary uses data from the <a href="https://dictionaryapi.dev" target="_blank">FreeDictionaryAPI</a> and is licensed under the 
+        <a href="https://wordwise.playcode.io/LICview.html" target="_blank">GPL-3.0 License</a>.
+    </footer>
     <script>
         // Function to fetch dictionary definitions
         async function searchWord() {
