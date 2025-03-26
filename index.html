@@ -21,19 +21,38 @@
         footer { background: #f1f1f1; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; font-size: 14px; }
         .license-link { margin-top: 20px; font-size: 16px; color: #007bff; text-decoration: none; }
         .license-link:hover { text-decoration: underline; }
+        .github-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .github-icon img {
+            width: 50px;
+            height: 50px;
+        }
+        .github-icon:hover {
+            transform: scale(1.2);
+            opacity: 0.8;
+        }
     </style>
     <script>
         // Check if the license agreement has been accepted
         window.onload = () => {
             const licenseAccepted = localStorage.getItem('licenseAccepted');
             if (!licenseAccepted) {
-                // Redirect to LICENSE.html if the user hasn't accepted the license agreement
-                window.location.href = 'LICENSE.html';
+                // Redirect to LICagree.html if the user hasn't accepted the license agreement
+                window.location.href = 'LICagree.html';
             }
         };
     </script>
 </head>
 <body>
+    <!-- GitHub Icon -->
+    <a href="https://github.com/JimmyPla6z/WordWise" class="github-icon" target="_blank" rel="noopener noreferrer">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Icon">
+    </a>
+
     <div class="container">
         <div class="title-image">
             <a href="https://fontmeme.com/fonts/eb-garamond-font/">
@@ -53,7 +72,7 @@
     </div>
     <footer>
         This dictionary uses data from the <a href="https://dictionaryapi.dev" target="_blank">FreeDictionaryAPI</a> and is licensed under the 
-        <a href="https://wordwise.playcode.io/LICview.html" target="_blank">GPL-3.0 License</a>.
+        <a href="https://wordwise.playcode.io/LICENSE.txt" target="_blank">GPL-3.0 License</a>.
     </footer>
     <script>
         // Function to fetch dictionary definitions
