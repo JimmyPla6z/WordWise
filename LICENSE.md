@@ -11,9 +11,7 @@
 
 #### You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-### For inquiries or contributions, contact JimmyPla6z via
-- Email: jimmypla6z@mail.com
-- Submitting Contact Form: https://jimmypla6z.github.io/#contact
+### For inquiries or contributions, contact JimmyPla6z via submitting a contact form at [jimmypla6z.github.io/#contact](https://jimmypla6z.github.io/#contact) or via creating a new discussion at (AskJimmy)[https://github.com/JimmyPla6z/AskJimmy/discussions]
 
 ---
 
